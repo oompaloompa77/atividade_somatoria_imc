@@ -12,7 +12,7 @@ print(imc)
 
 #exibir:
 #o valorcalculado
-print(f'Segundo as informaçoes obtidas (nome_do_usuário), seu IMC é de (IMC))')
+print(f'Segundo as informaçoes obtidas {nome_do_cliente}, seu IMC é de {imc}')
 
 #exibir:
 ##uma mensagem de orientaçao com base no resultado
