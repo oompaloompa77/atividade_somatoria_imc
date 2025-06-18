@@ -4,6 +4,8 @@
 #4. Fazer o cálculo de IMC com base nos valores apresentados.
 #5. Imprimir o valor do IMC.
 
+
+nome = str(input('Por Favor, digite seu nome: '))
 peso = float(input('Insira o peso: '))
 print(peso)
 print('------------------------------------')
@@ -16,21 +18,17 @@ print('----------------------------------')
 if imc < 18.5 : 
     print('Você está abaixo do peso!')
 
-elif imc <= 18.5 - 24.9: 
-    print('Parabéns seu peso está normal!!')
+elif 18.5 <= imc <= 24.9: 
+    print(f'Sr(a) {nome} com base nas informções coletadas... Parabéns seu peso está normal!!')
 
-elif imc <= 25 - 29.9 : 
-    print('Infelizmente você está com sobrepeso!')
+elif 25 <= imc <= 29.9 : 
+    print(f'Sr(a) {nome} com base nas informções coletadas... Infelizmente você está com sobrepeso!')
 
-elif imc <= 30 - 34.9 : 
-    print('Infelizmente você está com obesidade grau 1!')
+elif 30 <= imc <= 34.9 : 
+    print(f'Sr(a) {nome} com base nas informções coletadas... Infelizmente você está com obesidade grau 1!')
 
-elif imc <= 35 - 39.9 :
-    print('Sinto muito, você está com obesidade grau 2!!')
+elif 35 <= imc <= 39.9 :
+    print(f'Sr(a) {nome} com base nas informções coletadas... Sinto muito, você está com obesidade grau 2!!')
 
 else:
-    print('Sinto muito, você está com obesidade grau 3!!!')
-
-
-
-
+    print(f'Sr(a) {nome} com base nas informções coletadas... Sinto muito, você está com obesidade grau 3!!!')
